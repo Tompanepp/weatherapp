@@ -1,10 +1,11 @@
-let React = require('react')
-let ReactDOM = require('react-dom')
+var React = require('react')
 
 class App extends React.Component {
     render() {
         return (
-            <div> The weather is coming </div>
+            <div>I am a weather app, you guessed it!</div>
         )
     }
 }
+
+module.exports = App
